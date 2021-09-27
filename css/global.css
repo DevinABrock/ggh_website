@@ -1,0 +1,91 @@
+/* black - #000000  
+navy - #14213D
+gold - #FCA311  (accent)
+light gray - #E5E5E5 
+white = #FFFFFF */
+
+/* ##### background colors ##### */
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.bg-black{
+    background-color: black;
+
+}
+.bg-red{
+    background-color: red;
+}
+.bg-accent{
+    background-color: #FCA311;
+}
+.bg-light_gray{
+    background-color: #E5E5E5;
+}
+
+/* ##### font colors ##### */
+
+.text-black{
+    color: black;
+
+}
+.text-red{
+    color: #ED1D26;
+}
+.text-accent{
+    color: #FCA311;
+}
+.text-white{
+    color: white;
+}
+.text-accent a, a:hover{
+    color: white;
+    text-decoration: none;
+
+}
+.text-light_gray{
+    color: #E5E5E5;
+}
+
+/* page sections */
+
+.ps-light{
+    background-color: white;
+    height: 550px;
+    width: 100%;
+}
+.ps-gray{
+    background-color: #E5E5E5;
+    height: 550px;
+    width: 100%;
+}
+.parallax{
+    background-image: url("https://th.bing.com/th/id/R.163272dd4096a9931e6d3afc7bcf5465?rik=CtKnNZ8sQgK88A&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2ff%2fb%2f2%2f194376.jpg&ehk=6vnEGuNBwfInDWYuEeyPJM5t1A9%2b9YMqG%2fuiOiOQoos%3d&risl=&pid=ImgRaw&r=0");
+    height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+}
+.item{
+    font-size: 20px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
